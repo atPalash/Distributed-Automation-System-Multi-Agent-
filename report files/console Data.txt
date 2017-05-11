@@ -1,0 +1,1091 @@
+
+C:\Users\halder\Desktop\DASD>nodemon app.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+                                                                                        WS1Server running at http://localhost:4001/
+WS2Server running at http://localhost:4002/
+WS3Server running at http://localhost:4003/
+WS4Server running at http://localhost:4004/
+WS5Server running at http://localhost:4005/
+WS6Server running at http://localhost:4006/
+WS8Server running at http://localhost:4008/
+WS9Server running at http://localhost:4009/
+WS10Server running at http://localhost:4010/
+WS11Server running at http://localhost:4011/
+WS12Server running at http://localhost:4012/
+Server running at http://localhost:4007/
+order Subscription received...
+POST /WS7orders 200 78.834 ms - -
+POST /WS7notifs 200 3.907 ms - -
+POST /WS7notifs 200 44.921 ms - -
+PalletID: 1493292565726,OrderID: 1493292785796 Server running at http://localhost:5001/
+paper notifs
+POST /WS7notifs 200 0.790 ms - -
+POST /WS7notifs 200 1.590 ms - -
+****Reset Priority Request to: http://localhost:4007/WS7resetPriority
+****Free Request to: http://localhost:4007/WS7setStatusFree
+GET /WS7resetPriority 404 28.009 ms - 980
+****Pallet Data to: http://localhost:4008/WS8pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+GET /WS7setStatusFree 200 15.587 ms - -
+POST /WS7notifs 200 0.694 ms - -
+****Priority Request to: http://localhost:4008/WS8setPriority
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+****Reset Priority Request to: http://localhost:4008/WS8resetPriority
+****Free Request to: http://localhost:4008/WS8setStatusFree
+****Pallet Data to: http://localhost:4009/WS9pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Priority Request to: http://localhost:4009/WS9setPriority
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Reset Priority Request to: http://localhost:4009/WS9resetPriority
+****Free Request to: http://localhost:4009/WS9setStatusFree
+****Pallet Data to: http://localhost:4010/WS10pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+POST /WS7notifs 200 0.756 ms - -
+POST /WS7notifs 200 19.180 ms - -
+PalletID: 1493292565727,OrderID: 1493292785796 Server running at http://localhost:5002/
+paper notifs
+POST /WS7notifs 200 0.549 ms - -
+****Priority Request to: http://localhost:4010/WS10setPriority
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+POST /WS7notifs 200 0.754 ms - -
+****Reset Priority Request to: http://localhost:4007/WS7resetPriority
+GET /WS7resetPriority 404 7.034 ms - 980
+****Free Request to: http://localhost:4007/WS7setStatusFree
+****Pallet Data to: http://localhost:4008/WS8pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+GET /WS7setStatusFree 200 4.568 ms - -
+POST /WS7notifs 200 0.828 ms - -
+****Reset Priority Request to: http://localhost:4010/WS10resetPriority
+****Free Request to: http://localhost:4010/WS10setStatusFree
+****Pallet Data to: http://localhost:4011/WS11pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Priority Request to: http://localhost:4008/WS8setPriority
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+****Priority Request to: http://localhost:4011/WS11setPriority
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Reset Priority Request to: http://localhost:4008/WS8resetPriority
+****Pallet Data to: http://localhost:4009/WS9pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Free Request to: http://localhost:4008/WS8setStatusFree
+****Reset Priority Request to: http://localhost:4011/WS11resetPriority
+****Free Request to: http://localhost:4011/WS11setStatusFree
+****Pallet Data to: http://localhost:4012/WS12pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Priority Request to: http://localhost:4009/WS9setPriority
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Priority Request to: http://localhost:4012/WS12setPriority
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Reset Priority Request to: http://localhost:4009/WS9resetPriority
+****Free Request to: http://localhost:4009/WS9setStatusFree
+****Pallet Data to: http://localhost:4010/WS10pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+****Reset Priority Request to: http://localhost:4012/WS12resetPriority
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4001/WS1setStatusBusy
+****Free Request to: http://localhost:4012/WS12setStatusFree
+****Priority Request to: http://localhost:4010/WS10setPriority
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+****Reset Priority Request to: http://localhost:4010/WS10resetPriority
+****Pallet Data to: http://localhost:4011/WS11pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Free Request to: http://localhost:4010/WS10setStatusFree
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4001/WS1setStatusBusy
+****Priority Request to: http://localhost:4011/WS11setPriority
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Reset Priority Request to: http://localhost:4011/WS11resetPriority
+****Free Request to: http://localhost:4011/WS11setStatusFree
+****Pallet Data to: http://localhost:4012/WS12pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Priority Request to: http://localhost:4012/WS12setPriority
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Simulator Request to: http://localhost:3000/RTU/SimCNV1/services/TransZone35
+****Reset Priority Request to: http://localhost:4012/WS12resetPriority
+****busy*** WS1 http://localhost:3000/RTU/SimCNV1/services/TransZone12
+****Simulator Request to: http://localhost:3000/RTU/SimCNV1/services/TransZone12
+****Free Request to: http://localhost:4012/WS12setStatusFree
+****Reset Priority Request to: http://localhost:4001/WS1resetPriority
+****Pallet Data to: http://localhost:4002/WS2pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Free Request to: http://localhost:4001/WS1setStatusFree
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 0,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4001/WS1setStatusBusy
+****Priority Request to: http://localhost:4002/WS2setPriority
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Reset Priority Request to: http://localhost:4002/WS2resetPriority
+****Free Request to: http://localhost:4002/WS2setStatusFree
+****Pallet Data to: http://localhost:4003/WS3pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Pallet Data to: http://localhost:4003/WS3pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Simulator Request to: http://localhost:3000/RTU/SimCNV1/services/TransZone35
+****Reset Priority Request to: http://localhost:4001/WS1resetPriority
+****Pallet Data to: http://localhost:4002/WS2pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Free Request to: http://localhost:4001/WS1setStatusFree
+****Simulator Request to: http://localhost:3000/RTU/SimROB3/services/Draw5
+****Pallet Data to: http://localhost:4003/WS3pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 2,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Priority Request to: http://localhost:4002/WS2setPriority
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Reset Priority Request to: http://localhost:4002/WS2resetPriority
+****Free Request to: http://localhost:4002/WS2setStatusFree
+****Simulator Request to: http://localhost:3000/RTU/SimCNV3/services/TransZone14
+****Priority Request to: http://localhost:4003/WS3setPriority
+****Priority Request to: http://localhost:4003/WS3setPriority
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Reset Priority Request to: http://localhost:4003/WS3resetPriority
+****Pallet Data to: http://localhost:4004/WS4pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+****Priority Request to: http://localhost:4004/WS4setPriority
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+****Reset Priority Request to: http://localhost:4004/WS4resetPriority
+****Free Request to: http://localhost:4004/WS4setStatusFree
+****Pallet Data to: http://localhost:4005/WS5pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Priority Request to: http://localhost:4005/WS5setPriority
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Reset Priority Request to: http://localhost:4005/WS5resetPriority
+****Free Request to: http://localhost:4005/WS5setStatusFree
+****Pallet Data to: http://localhost:4006/WS6pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+**********prior wait for 10 sec
+****Pallet Data to: http://localhost:4006/WS6pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: '1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 1,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimROB6/services/Draw5
+****Pallet Data to: http://localhost:4006/WS6pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: '5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 2,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV6/services/TransZone35
+*************NOT prior trans35 http://localhost:3000/RTU/SimCNV6/services/TransZone35
+**********prior wait for 10 sec
+****Simulator Request to: http://localhost:3000/RTU/SimCNV3/services/TransZone35
+*************NOT prior trans35 http://localhost:3000/RTU/SimCNV3/services/TransZone35
+POST /WS7notifs 200 1.470 ms - -
+****Reset Priority Request to: http://localhost:4006/WS6resetPriority
+****Reset Priority Request to: http://localhost:4003/WS3resetPriority
+****Free Request to: http://localhost:4006/WS6setStatusFree
+GET /WS7getStatus 200 3.093 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV7/services/TransZone12
+****Pallet Data to: http://localhost:4004/WS4pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+****Free Request to: http://localhost:4003/WS3setStatusFree
+POST /WS7pallet 200 0.711 ms - -
+GET /WS7setStatusBusy 200 10.201 ms - -
+POST /WS7notifs 200 5.596 ms - -
+POST /WS7notifs 200 0.582 ms - -
+POST /WS7notifs 200 0.510 ms - -
+POST /WS7notifs 200 0.523 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+POST /WS7pallet 200 1.398 ms - -
+GET /WS7setStatusBusy 200 1.607 ms - -
+POST /WS7notifs 200 0.536 ms - -
+****Priority Request to: http://localhost:4004/WS4setPriority
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+POST /WS7notifs 200 1.116 ms - -
+****Reset Priority Request to: http://localhost:4007/WS7resetPriority
+GET /WS7resetPriority 404 7.505 ms - 980
+****Free Request to: http://localhost:4007/WS7setStatusFree
+****Pallet Data to: http://localhost:4008/WS8pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+GET /WS7setStatusFree 200 6.149 ms - -
+****Reset Priority Request to: http://localhost:4004/WS4resetPriority
+****Pallet Data to: http://localhost:4005/WS5pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Free Request to: http://localhost:4004/WS4setStatusFree
+POST /WS7notifs 200 0.598 ms - -
+****Priority Request to: http://localhost:4008/WS8setPriority
+****Busy Request to: http://localhost:4008/WS8setStatusBusy
+****Pallet Data to: http://localhost:4005/WS5pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Reset Priority Request to: http://localhost:4008/WS8resetPriority
+****Pallet Data to: http://localhost:4009/WS9pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Free Request to: http://localhost:4008/WS8setStatusFree
+****Pallet Data to: http://localhost:4009/WS9pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: '8',
+  keyColor_: 'RED',
+  status_: 3,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Busy Request to: http://localhost:4009/WS9setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV5/services/TransZone35
+*************NOT prior trans35 http://localhost:3000/RTU/SimCNV5/services/TransZone35
+****Reset Priority Request to: http://localhost:4005/WS5resetPriority
+****Free Request to: http://localhost:4005/WS5setStatusFree
+****Pallet Data to: http://localhost:4006/WS6pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Priority Request to: http://localhost:4006/WS6setPriority
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV9/services/TransZone35
+*************NOT prior trans35 http://localhost:3000/RTU/SimCNV9/services/TransZone35
+****Reset Priority Request to: http://localhost:4009/WS9resetPriority
+****Free Request to: http://localhost:4009/WS9setStatusFree
+****Pallet Data to: http://localhost:4010/WS10pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+POST /WS7notifs 200 0.494 ms - -
+****Reset Priority Request to: http://localhost:4006/WS6resetPriority
+****Free Request to: http://localhost:4006/WS6setStatusFree
+GET /WS7getStatus 200 7.022 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV7/services/TransZone12
+POST /WS7pallet 200 0.775 ms - -
+GET /WS7setStatusBusy 200 6.034 ms - -
+POST /WS7notifs 200 0.476 ms - -
+POST /WS7notifs 200 0.487 ms - -
+POST /WS7notifs 200 1.041 ms - -
+****Priority Request to: http://localhost:4010/WS10setPriority
+****Busy Request to: http://localhost:4010/WS10setStatusBusy
+POST /WS7notifs 200 0.507 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565726,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5001,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+POST /WS7pallet 200 2.061 ms - -
+GET /WS7setStatusBusy 200 1.249 ms - -
+****Reset Priority Request to: http://localhost:4010/WS10resetPriority
+****Pallet Data to: http://localhost:4011/WS11pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Free Request to: http://localhost:4010/WS10setStatusFree
+****Priority Request to: http://localhost:4011/WS11setPriority
+****Busy Request to: http://localhost:4011/WS11setStatusBusy
+****Reset Priority Request to: http://localhost:4011/WS11resetPriority
+****Pallet Data to: http://localhost:4012/WS12pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Free Request to: http://localhost:4011/WS11setStatusFree
+****Priority Request to: http://localhost:4012/WS12setPriority
+****Busy Request to: http://localhost:4012/WS12setStatusBusy
+****Reset Priority Request to: http://localhost:4012/WS12resetPriority
+****Free Request to: http://localhost:4012/WS12setStatusFree
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4001/WS1setStatusBusy
+****Pallet Data to: http://localhost:4001/WS1pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4001/WS1setStatusBusy
+****Reset Priority Request to: http://localhost:4001/WS1resetPriority
+****Free Request to: http://localhost:4001/WS1setStatusFree
+****Pallet Data to: http://localhost:4002/WS2pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Priority Request to: http://localhost:4002/WS2setPriority
+****Busy Request to: http://localhost:4002/WS2setStatusBusy
+****Reset Priority Request to: http://localhost:4002/WS2resetPriority
+****Free Request to: http://localhost:4002/WS2setStatusFree
+****Pallet Data to: http://localhost:4003/WS3pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Priority Request to: http://localhost:4003/WS3setPriority
+****Busy Request to: http://localhost:4003/WS3setStatusBusy
+****Reset Priority Request to: http://localhost:4003/WS3resetPriority
+****Pallet Data to: http://localhost:4004/WS4pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+****Free Request to: http://localhost:4003/WS3setStatusFree
+****Priority Request to: http://localhost:4004/WS4setPriority
+****Busy Request to: http://localhost:4004/WS4setStatusBusy
+****Reset Priority Request to: http://localhost:4004/WS4resetPriority
+****Pallet Data to: http://localhost:4005/WS5pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Free Request to: http://localhost:4004/WS4setStatusFree
+****Priority Request to: http://localhost:4005/WS5setPriority
+****Busy Request to: http://localhost:4005/WS5setStatusBusy
+****Reset Priority Request to: http://localhost:4005/WS5resetPriority
+****Free Request to: http://localhost:4005/WS5setStatusFree
+****Pallet Data to: http://localhost:4006/WS6pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+****Priority Request to: http://localhost:4006/WS6setPriority
+****Busy Request to: http://localhost:4006/WS6setStatusBusy
+POST /WS7notifs 200 0.581 ms - -
+****Reset Priority Request to: http://localhost:4006/WS6resetPriority
+GET /WS7getStatus 200 1.446 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+****Simulator Request to: http://localhost:3000/RTU/SimCNV7/services/TransZone12
+****Free Request to: http://localhost:4006/WS6setStatusFree
+POST /WS7pallet 200 0.495 ms - -
+GET /WS7setStatusBusy 200 3.287 ms - -
+POST /WS7notifs 200 0.451 ms - -
+POST /WS7notifs 200 0.527 ms - -
+POST /WS7notifs 200 0.414 ms - -
+POST /WS7notifs 200 0.478 ms - -
+****Pallet Data to: http://localhost:4007/WS7pallet
+****Pallet Data Content: { palletID_: 1493292565727,
+  orderID_: 1493292785796,
+  frameType_: 'done1',
+  frameColor_: 'GREEN',
+  screenType_: 'done5',
+  screenColor_: 'GREEN',
+  keyType_: 'done8',
+  keyColor_: 'RED',
+  status_: 4,
+  path_:
+   [ [ 'WS1' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS3', 'WS6', 'WS10' ],
+     [ 'WS2', 'WS5', 'WS9', 'WS12' ] ],
+  port_: 5002,
+  hostname_: 'localhost' }
+****Busy Request to: http://localhost:4007/WS7setStatusBusy
+POST /WS7pallet 200 0.379 ms - -
+GET /WS7setStatusBusy 200 3.419 ms - -
