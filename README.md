@@ -12,5 +12,5 @@ Each workstation and pallets were identified as agents. On reaching the start po
 Each workstation has diffent capabilities some can load pallet, some can unload and others can make mobile of single color.
 
 ### video
-please watch the video in the report file folder for explanation/demonstration:https://www.youtube.com/edit?o=U&video_id=J8FZJvHFlQM
+please watch the video in the report file folder for explanation/demonstration:https://www.youtube.com/watch?v=J8FZJvHFlQM
 
